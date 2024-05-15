@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin-top: 3rem;
+}
+
+.details {
+  width: 28rem;
+}
+
+.inputsCont {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0px;
+}
+.inputCurrentUser {
+  padding: 8px;
+  margin: 10px 0px;
+  outline: none;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+.btnUpdate {
+  background-color: rgb(5, 166, 166);
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
